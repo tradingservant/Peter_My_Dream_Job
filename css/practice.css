@@ -1,0 +1,299 @@
+:root {
+  color-scheme: light;
+  --ink: #1b2836;
+  --paper: #f4f7fb;
+  --card: #ffffff;
+  --line: #c5d0dc;
+  --navy: #163a5f;
+  --hint-bg: #fff8e8;
+  --hint-ink: #2c2208;
+  --good-bg: #e7f6ee;
+  --good-ink: #0f3d24;
+  --bad-bg: #fdeeee;
+  --bad-ink: #6b1212;
+  --pending-bg: #e8f2fc;
+  --pending-ink: #0d2c4a;
+  --focus: #0b57d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 12px;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "PingFang HK", "Microsoft JhengHei", "Noto Sans CJK TC", "Heiti TC", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.wrap,
+header,
+main,
+footer,
+article,
+form,
+fieldset,
+.option,
+.card,
+.qnav,
+.actions,
+blockquote,
+p,
+h1,
+h2,
+h3,
+button,
+label {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.wrap {
+  width: min(40rem, 100%);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+label,
+legend,
+button,
+input,
+textarea,
+blockquote {
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 1.65rem;
+  line-height: 1.3;
+}
+
+h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+h3 {
+  margin: 0.2rem 0 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+p,
+label,
+legend,
+button,
+input,
+textarea,
+blockquote,
+li {
+  font-size: 1rem;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0.55rem 0;
+}
+
+header,
+.card,
+footer {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+header,
+.card {
+  margin-bottom: 12px;
+}
+
+.notice,
+.score-note,
+footer p {
+  margin-bottom: 0;
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 12px 14px;
+  color: #ffffff;
+  background: var(--navy);
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  text-align: center;
+  white-space: normal;
+}
+
+button.secondary {
+  color: var(--navy);
+  background: #ffffff;
+}
+
+button.danger {
+  color: #ffffff;
+  background: #6b1212;
+  border-color: #6b1212;
+}
+
+button:disabled {
+  color: var(--ink);
+  background: #e4ebf3;
+  border-color: #c5d0dc;
+  cursor: not-allowed;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actions,
+.qnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.actions button,
+.qnav button {
+  flex: 1 1 8rem;
+  width: auto;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  min-inline-size: 0;
+}
+
+legend {
+  padding: 0;
+  margin-bottom: 0.4rem;
+}
+
+.option {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 8px 0;
+  padding: 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.option:has(input:checked) {
+  border-color: var(--navy);
+  background: #f3f7fb;
+}
+
+input[type="radio"] {
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-top: 0.2rem;
+  flex: 0 0 auto;
+}
+
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: #ffffff;
+  color: var(--ink);
+}
+
+textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+blockquote {
+  margin: 0.4rem 0 0.8rem;
+  padding: 10px 12px;
+  border-left: 4px solid var(--navy);
+  background: #f7fafc;
+}
+
+.hint,
+.result-retry {
+  background: var(--hint-bg);
+  color: var(--hint-ink);
+  border: 2px solid #e2c98a;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.result-good {
+  background: var(--good-bg);
+  color: var(--good-ink);
+  border: 2px solid #b7e0c8;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.result-bad {
+  background: var(--bad-bg);
+  color: var(--bad-ink);
+  border: 2px solid #f0c2c2;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.result-pending {
+  background: var(--pending-bg);
+  color: var(--pending-ink);
+  border: 2px solid #c5d9f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.result-pending blockquote,
+.result-good blockquote,
+.result-bad blockquote,
+.result-retry blockquote {
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+#stem:focus {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
