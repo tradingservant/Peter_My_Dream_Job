@@ -1,0 +1,1327 @@
+{
+  "meta": {
+    "title": "My Dream Job — online practice",
+    "title_zh": "我的夢想工作——網上練習",
+    "level": "Hong Kong P6, British school English",
+    "source": "Longman English Leap 6A, Chapter 1 My dream job (scanned working pages only)",
+    "question_language": "en-GB",
+    "instruction_language": "zh-Hant",
+    "instruction_style": "Formal Traditional Chinese for student-facing directions; English for stems, options and answers.",
+    "spelling": "British (favourite, travelling, footballer). Use 'computer programs' as in the source chapter.",
+    "station_count": 5,
+    "question_count_core": 37,
+    "scoring_storage": "Specify content and expected interaction only. Do not assume a central score server, accounts, or saved results. Any scoring or storage can be added later.",
+    "marking_principles": {
+      "first_attempt_unhinted": "The first submit of an auto-marked item is the first attempt. Do not show the hint before that attempt.",
+      "hint_after_first_error": "If the first attempt is wrong, show first_error hint and allow retry. A later correct retry is not a first-correct result.",
+      "answer_matching": "Compare auto-marked answers case-insensitively. Ignore extra spaces and a final full stop or exclamation mark. Accept I'll and I will. Accept listed variants in accepted_answers. Normalise curly apostrophes to straight apostrophes before matching. For MCQs, use correct_option_id.",
+      "teacher_review": "Open writing is not auto-marked and must not be treated as automatic mastery. Store or display the work for the teacher. Model answers are guidance only and are marked 範例／教師用 in the teacher key."
+    }
+  },
+  "stations": [
+    {
+      "id": "S1",
+      "order": 1,
+      "title": "Job words",
+      "title_zh": "第一關：工作詞彙",
+      "intro_zh": "本關練習工作名稱、職務描述，以及冠詞 a / an 和表示「人」的後綴。請先自行作答；如第一次答錯，才會出現提示。",
+      "intro_en": "Practise job titles, job duties, articles a / an, and suffixes for people.",
+      "question_count": 8,
+      "questions": [
+        {
+          "id": "S1-Q01",
+          "type": "mcq",
+          "prompt": "A person who cures sick animals is a ________.",
+          "prompt_zh": "請選出正確的工作名稱。",
+          "accepted_answers": [
+            "vet"
+          ],
+          "hints": {
+            "first_error": "Think of the job that helps ill dogs, cats and other pets."
+          },
+          "feedback": {
+            "correct": "正確。答案是 vet。",
+            "explanatory": "A vet (veterinary surgeon) cures sick animals. A pilot flies people from one place to another, a model appears in fashion shows, and a reporter interviews people."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "pilot"
+            },
+            {
+              "id": "B",
+              "text": "vet"
+            },
+            {
+              "id": "C",
+              "text": "model"
+            },
+            {
+              "id": "D",
+              "text": "reporter"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S1-Q02",
+          "type": "mcq",
+          "prompt": "Which job matches the duty “design beautiful buildings”?",
+          "prompt_zh": "請選出與職務描述相符的工作。",
+          "accepted_answers": [
+            "architect"
+          ],
+          "hints": {
+            "first_error": "This person draws or plans houses, schools and other buildings."
+          },
+          "feedback": {
+            "correct": "正確。答案是 architect。",
+            "explanatory": "An architect designs buildings. A computer programmer writes computer programs, a firefighter rescues people in danger, and an actor acts in TV dramas or films."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "computer programmer"
+            },
+            {
+              "id": "B",
+              "text": "firefighter"
+            },
+            {
+              "id": "C",
+              "text": "architect"
+            },
+            {
+              "id": "D",
+              "text": "actor"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "S1-Q03",
+          "type": "mcq",
+          "prompt": "Which duty belongs to a pilot?",
+          "prompt_zh": "請選出飛行員（pilot）的職務。",
+          "accepted_answers": [
+            "fly people from one place to another"
+          ],
+          "hints": {
+            "first_error": "A pilot works in a plane, not in a hospital or a fashion show."
+          },
+          "feedback": {
+            "correct": "正確。飛行員的職務是 fly people from one place to another。",
+            "explanatory": "A pilot flies people from one place to another. Looking after passengers is the duty of a flight attendant. Curing sick animals is a vet’s job. Appearing in fashion shows is a model’s job."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "look after passengers"
+            },
+            {
+              "id": "B",
+              "text": "cure sick animals"
+            },
+            {
+              "id": "C",
+              "text": "appear in fashion shows"
+            },
+            {
+              "id": "D",
+              "text": "fly people from one place to another"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "S1-Q04",
+          "type": "mcq",
+          "prompt": "A modern word for “a fireman” or “a firewoman” is ________.",
+          "prompt_zh": "請選出較常用、包含男女的現代用詞。",
+          "accepted_answers": [
+            "a firefighter"
+          ],
+          "hints": {
+            "first_error": "The book also gives a word that can be used for both men and women who put out fires."
+          },
+          "feedback": {
+            "correct": "正確。答案是 a firefighter。",
+            "explanatory": "The book gives fireman / firewoman, and the modern inclusive word firefighters (a firefighter). Police officer is the inclusive word for policeman / policewoman."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "a waitress"
+            },
+            {
+              "id": "B",
+              "text": "a firefighter"
+            },
+            {
+              "id": "C",
+              "text": "a police officer"
+            },
+            {
+              "id": "D",
+              "text": "a security guard"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S1-Q05",
+          "type": "mcq",
+          "prompt": "Choose the correct article: I want to be ________ astronaut when I grow up.",
+          "prompt_zh": "請選出正確的冠詞 a 或 an。",
+          "accepted_answers": [
+            "an"
+          ],
+          "hints": {
+            "first_error": "Listen to the first sound of “astronaut”. Do we use an before a vowel sound?"
+          },
+          "feedback": {
+            "correct": "正確。應寫 an astronaut。",
+            "explanatory": "Use an before a vowel sound. Astronaut starts with the vowel sound /æ/, so we say an astronaut. (Compare: a vet, a pilot, an architect, an actor, an athlete.)"
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "a"
+            },
+            {
+              "id": "B",
+              "text": "an"
+            },
+            {
+              "id": "C",
+              "text": "the"
+            },
+            {
+              "id": "D",
+              "text": "— (no article)"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S1-Q06",
+          "type": "gap",
+          "prompt": "Complete the sentence with a or an: She wants to be ________ architect.",
+          "prompt_zh": "請在橫線上填寫 a 或 an。",
+          "accepted_answers": [
+            "an"
+          ],
+          "hints": {
+            "first_error": "Look at the first sound of “architect”, not only the first letter."
+          },
+          "feedback": {
+            "correct": "正確。應填 an。",
+            "explanatory": "Architect starts with a vowel sound, so the article is an: an architect."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "accept_notes": "Accept only 'an' (case-insensitive)."
+        },
+        {
+          "id": "S1-Q07",
+          "type": "mcq",
+          "prompt": "Suffixes are letters added to the end of words. Magic + ________ = magician.",
+          "prompt_zh": "請選出正確的後綴（suffix）。",
+          "accepted_answers": [
+            "-ian"
+          ],
+          "hints": {
+            "first_error": "Look at the ending of the word magician. Which group of letters was added?"
+          },
+          "feedback": {
+            "correct": "正確。後綴是 -ian。",
+            "explanatory": "The suffix -ian makes magician (a person who does magic). Other person suffixes in the chapter include -er (programmer), -ist (stylist) and -ant (accountant)."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "-er"
+            },
+            {
+              "id": "B",
+              "text": "-ist"
+            },
+            {
+              "id": "C",
+              "text": "-ant"
+            },
+            {
+              "id": "D",
+              "text": "-ian"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "S1-Q08",
+          "type": "mcq",
+          "prompt": "A person who writes computer programs is a computer ________.",
+          "prompt_zh": "請選出正確的後綴形式。",
+          "accepted_answers": [
+            "programmer"
+          ],
+          "hints": {
+            "first_error": "Add a person suffix to “program”. The word is used in the chapter Word skill box."
+          },
+          "feedback": {
+            "correct": "正確。答案是 programmer。",
+            "explanatory": "The suffix -er makes computer programmer. (Stylist uses -ist; accountant uses -ant; salesman / saleswoman use -man / -woman.)"
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "programmist"
+            },
+            {
+              "id": "B",
+              "text": "programmer"
+            },
+            {
+              "id": "C",
+              "text": "programman"
+            },
+            {
+              "id": "D",
+              "text": "programiant"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "order": 2,
+      "title": "Dream jobs and reasons",
+      "title_zh": "第二關：夢想工作與原因",
+      "intro_zh": "本關練習問句 What do you want to be when you grow up？以及用 because 說明原因。部分題目附有短句，請先閱讀再作答。",
+      "intro_en": "Practise the question and answer about dream jobs, and give reasons with because.",
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S2-Q01",
+          "type": "mcq",
+          "prompt": "Choose the correct question.",
+          "prompt_zh": "請選出正確的問句。",
+          "accepted_answers": [
+            "What do you want to be when you grow up?"
+          ],
+          "hints": {
+            "first_error": "The usual question in this chapter asks about a job in the future, when you are older."
+          },
+          "feedback": {
+            "correct": "正確。問句是 What do you want to be when you grow up?",
+            "explanatory": "The structure table gives: What do you want to be when you grow up? The verb is do you want (not does you want, and not wanted for this usual question)."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "What do you want to be when you grow up?"
+            },
+            {
+              "id": "B",
+              "text": "What does you want to be when you grow up?"
+            },
+            {
+              "id": "C",
+              "text": "What do you wanted to be when you grow up?"
+            },
+            {
+              "id": "D",
+              "text": "What you want to be when you grow up?"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S2-Q02",
+          "type": "gap",
+          "prompt": "Complete the sentence with one word: I want to be a police officer ________ I want to protect the people in my city.",
+          "prompt_zh": "請填入一個適當的詞。",
+          "accepted_answers": [
+            "because"
+          ],
+          "hints": {
+            "first_error": "The missing word gives a reason."
+          },
+          "feedback": {
+            "correct": "正確。應填 because。",
+            "explanatory": "We use because to give a reason: I want to be a police officer because I want to protect the people in my city."
+          },
+          "teacher_review": false,
+          "marks": 1
+        },
+        {
+          "id": "S2-Q03",
+          "type": "mcq",
+          "prompt": "A girl says she wants to have her own company. Which sentence is best?",
+          "prompt_zh": "請選出最恰當的句子。",
+          "accepted_answers": [
+            "I want to be a businesswoman because I want to have my own company."
+          ],
+          "hints": {
+            "first_error": "Use “I want to be …” and “because” for the reason. Think of the job for someone who has a company."
+          },
+          "feedback": {
+            "correct": "正確。工作與原因相符。",
+            "explanatory": "The best match is a businesswoman who wants to have her own company. Curing sick animals is the duty of a vet."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "I want to be an astronaut because I want to have my own company."
+            },
+            {
+              "id": "B",
+              "text": "I want to be a businesswoman because I want to have my own company."
+            },
+            {
+              "id": "C",
+              "text": "I want to be a vet because I want to have my own company."
+            },
+            {
+              "id": "D",
+              "text": "I want to be a businesswoman because I want to cure sick animals."
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S2-Q04",
+          "type": "mcq",
+          "prompt": "Read this sentence from Tammy: “I have wanted to be an astronaut since I was a little kid.” What does Tammy want to be?",
+          "prompt_zh": "請根據句子選出答案。",
+          "accepted_answers": [
+            "an astronaut"
+          ],
+          "hints": {
+            "first_error": "The job is named in the sentence."
+          },
+          "feedback": {
+            "correct": "正確。Tammy 想成為 astronaut。",
+            "explanatory": "Tammy wants to be an astronaut. She has wanted this job since she was a little kid."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "a fashion blogger"
+            },
+            {
+              "id": "B",
+              "text": "a footballer"
+            },
+            {
+              "id": "C",
+              "text": "an astronaut"
+            },
+            {
+              "id": "D",
+              "text": "a reporter"
+            }
+          ],
+          "stimulus": "I have wanted to be an astronaut since I was a little kid.",
+          "correct_option_id": "C"
+        },
+        {
+          "id": "S2-Q05",
+          "type": "mcq",
+          "prompt": "Ella writes about upcycling clothes. Why does she think upcycling is a good idea?",
+          "prompt_zh": "請選出正確原因。可根據短句作答。",
+          "accepted_answers": [
+            "It is good for the environment and it is a great way to save money."
+          ],
+          "hints": {
+            "first_error": "Ella gives two reasons: one about the Earth, and one about money."
+          },
+          "feedback": {
+            "correct": "正確。Ella 提出環境和節省金錢兩個原因。",
+            "explanatory": "Ella says upcycling is good for the environment and it is a great way to save money too. The other options add ideas that she does not give in this sentence."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a good way to become a footballer."
+            },
+            {
+              "id": "B",
+              "text": "It is good for the environment and it is a great way to save money."
+            },
+            {
+              "id": "C",
+              "text": "It helps her meet aliens in space."
+            },
+            {
+              "id": "D",
+              "text": "It is the only way to win the World Cup."
+            }
+          ],
+          "stimulus": "Upcycling is good for the environment and it is a great way to save money too.",
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S2-Q06",
+          "type": "mcq",
+          "prompt": "Lucas says: “When I grow up, I want to be a famous footballer because I love football.” Why does he want this job?",
+          "prompt_zh": "請選出 Lucas 想當足球員的原因。",
+          "accepted_answers": [
+            "because he loves football"
+          ],
+          "hints": {
+            "first_error": "Look for the word because. The reason comes after it."
+          },
+          "feedback": {
+            "correct": "正確。原因是 because he loves football。",
+            "explanatory": "The reason is because he loves football. The other ideas may appear later in his text, but they are not the reason given after because in this sentence."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "because he loves football"
+            },
+            {
+              "id": "B",
+              "text": "because he wants to be an astronaut"
+            },
+            {
+              "id": "C",
+              "text": "because he comes from China"
+            },
+            {
+              "id": "D",
+              "text": "because he does not like sport"
+            }
+          ],
+          "stimulus": "When I grow up, I want to be a famous footballer because I love football.",
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S2-Q07",
+          "type": "mcq",
+          "prompt": "Sam likes keeping up to date with current events. He also enjoys talking to all kinds of people. What is a good dream job for him?",
+          "prompt_zh": "請選出最合適的工作。",
+          "accepted_answers": [
+            "a reporter"
+          ],
+          "hints": {
+            "first_error": "Which person interviews people and needs to know what is happening in the news?"
+          },
+          "feedback": {
+            "correct": "正確。最適合的是 a reporter。",
+            "explanatory": "A reporter interviews important people and needs to keep up to date with current events. A vet cures sick animals, a pilot flies people from place to place, and a model appears in fashion shows."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "a vet"
+            },
+            {
+              "id": "B",
+              "text": "a pilot"
+            },
+            {
+              "id": "C",
+              "text": "a reporter"
+            },
+            {
+              "id": "D",
+              "text": "a model"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "order": 3,
+      "title": "If and will",
+      "title_zh": "第三關：If 和 will（條件句）",
+      "intro_zh": "本關練習第一類條件句：if 子句用現在式說明條件，結果子句用 will / I’ll 說明可能發生的事。請留意不要在 if 子句中使用 will。",
+      "intro_en": "Practise first conditionals: If + present, will / I’ll + result.",
+      "question_count": 8,
+      "questions": [
+        {
+          "id": "S3-Q01",
+          "type": "mcq",
+          "prompt": "Read: “If I become an athlete, I’ll win a lot of gold medals in races.” The words “If I become an athlete” are the ________.",
+          "prompt_zh": "請指出畫線部分的名稱。",
+          "accepted_answers": [
+            "conditional clause"
+          ],
+          "hints": {
+            "first_error": "One part is the condition (what has to happen first). The other part is the result."
+          },
+          "feedback": {
+            "correct": "正確。這是 conditional clause（條件子句）。",
+            "explanatory": "“If I become an athlete” is the conditional clause (the condition: this has to happen first). “I’ll win a lot of gold medals in races” is the main clause (the result)."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "main clause"
+            },
+            {
+              "id": "B",
+              "text": "conditional clause"
+            },
+            {
+              "id": "C",
+              "text": "question"
+            },
+            {
+              "id": "D",
+              "text": "closing of a letter"
+            }
+          ],
+          "stimulus": "If I become an athlete, I’ll win a lot of gold medals in races.",
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S3-Q02",
+          "type": "mcq",
+          "prompt": "In the if-clause (the condition), we use ________.",
+          "prompt_zh": "請選出 if 子句應使用的時態。",
+          "accepted_answers": [
+            "the present tense"
+          ],
+          "hints": {
+            "first_error": "The book says: this has to happen first. Which tense is used with if in this pattern?"
+          },
+          "feedback": {
+            "correct": "正確。if 子句用現在式。",
+            "explanatory": "In this first conditional, we use the present tense form with if (If I become …), and the future tense in the result (I’ll / I will win …)."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "the present tense"
+            },
+            {
+              "id": "B",
+              "text": "the future tense only"
+            },
+            {
+              "id": "C",
+              "text": "the past tense"
+            },
+            {
+              "id": "D",
+              "text": "no verb"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S3-Q03",
+          "type": "mcq",
+          "prompt": "In the result clause, we use ________.",
+          "prompt_zh": "請選出表示結果的子句所用的形式。",
+          "accepted_answers": [
+            "the future tense (will / I’ll)"
+          ],
+          "hints": {
+            "first_error": "The result is what will happen next, if the condition is true."
+          },
+          "feedback": {
+            "correct": "正確。結果子句用 will / I’ll。",
+            "explanatory": "The main clause gives the result, so we use the future tense: will or I’ll. Example: I’ll win a lot of gold medals in races."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "the past tense (won)"
+            },
+            {
+              "id": "B",
+              "text": "the future tense (will / I’ll)"
+            },
+            {
+              "id": "C",
+              "text": "because only"
+            },
+            {
+              "id": "D",
+              "text": "an article (a / an) only"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S3-Q04",
+          "type": "mcq",
+          "prompt": "Which sentence is correct?",
+          "prompt_zh": "請選出正確的條件句。",
+          "accepted_answers": [
+            "If I become a pilot, I’ll fly people from one place to another."
+          ],
+          "hints": {
+            "first_error": "Do not put will in the if-clause in this pattern. Use present tense after if, and will / I’ll in the result."
+          },
+          "feedback": {
+            "correct": "正確。If I become …, I’ll …",
+            "explanatory": "The correct pattern is: If I become a pilot, I’ll fly people from one place to another. Avoid If I will become … and avoid a present-tense result without will when we mean a future result."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "If I will become a pilot, I fly people from one place to another."
+            },
+            {
+              "id": "B",
+              "text": "If I become a pilot, I’ll fly people from one place to another."
+            },
+            {
+              "id": "C",
+              "text": "If I became a pilot, I flying people from one place to another."
+            },
+            {
+              "id": "D",
+              "text": "If I becomes a pilot, I flying people from one place to another."
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S3-Q05",
+          "type": "gap",
+          "prompt": "Complete the result. Use she’ll or she will. If Jessica becomes an athlete, ________ a lot of gold medals in races.",
+          "prompt_zh": "請在橫線上填寫 she’ll 或 she will 及適當的動詞。",
+          "accepted_answers": [
+            "she'll win",
+            "she will win"
+          ],
+          "hints": {
+            "first_error": "Jessica is the subject. Use she’ll / she will and the verb win."
+          },
+          "feedback": {
+            "correct": "正確。結果要用 will / ’ll + win。",
+            "explanatory": "Jessica is the subject, so use she’ll win or she will win. The words after win are already printed."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "stimulus": "Jessica’s dream job is to be an athlete. Duty: win a lot of gold medals in races.",
+          "accept_notes": "Enter only the missing words: she’ll win / she will win. Do not repeat the printed ending or change the subject to I."
+        },
+        {
+          "id": "S3-Q06",
+          "type": "gap",
+          "prompt": "Complete the sentence: If Tommy becomes a computer programmer, he’ll ________.",
+          "prompt_zh": "請根據提示完成句子。",
+          "accepted_answers": [
+            "write useful computer programs for kids",
+            "write useful computer programs for children"
+          ],
+          "hints": {
+            "first_error": "Use Tommy’s duty: it is about programs for children."
+          },
+          "feedback": {
+            "correct": "正確。",
+            "explanatory": "The model is: If Tommy becomes a computer programmer, he’ll write useful computer programs for kids."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "stimulus": "Tommy’s duty: write useful computer programs for kids.",
+          "accept_notes": "Complete the duty in full. Use computer programs, following the chapter."
+        },
+        {
+          "id": "S3-Q07",
+          "type": "gap",
+          "prompt": "Complete the sentence: If Flora becomes a lawyer, she’ll ________.",
+          "prompt_zh": "請根據提示完成句子。",
+          "accepted_answers": [
+            "help poor people in court"
+          ],
+          "hints": {
+            "first_error": "Use the duty about people in court."
+          },
+          "feedback": {
+            "correct": "正確。",
+            "explanatory": "The completed sentence is: If Flora becomes a lawyer, she’ll help poor people in court."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "stimulus": "Flora’s duty: help poor people in court.",
+          "accept_notes": "Enter only the missing verb phrase; she’ll is already printed."
+        },
+        {
+          "id": "S3-Q08",
+          "type": "mcq",
+          "prompt": "Choose the best sentence about becoming a hair stylist.",
+          "prompt_zh": "請選出最恰當的條件句。",
+          "accepted_answers": [
+            "If I become a hair stylist, I’ll create new hairstyles for people."
+          ],
+          "hints": {
+            "first_error": "Use If I become …, I’ll … and keep the idea of creating hairstyles."
+          },
+          "feedback": {
+            "correct": "正確。",
+            "explanatory": "The magazine dialogue uses: If I become a hair stylist, I’ll create new hairstyles for people. The if-clause takes become (present), and the result takes I’ll + create."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "If I will become a hair stylist, I create new hairstyles for people."
+            },
+            {
+              "id": "B",
+              "text": "If I become a hair stylist, I’ll create new hairstyles for people."
+            },
+            {
+              "id": "C",
+              "text": "If I become a hair stylist, I created new hairstyles for people."
+            },
+            {
+              "id": "D",
+              "text": "If I becomes a hair stylist, I’ll creating new hairstyles for people."
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "order": 4,
+      "title": "Reading",
+      "title_zh": "第四關：閱讀理解",
+      "intro_zh": "本關根據雜誌短句，理解小朋友的夢想工作和「我們身邊的工作」。請先讀題目中的句子，再選出或填寫答案。",
+      "intro_en": "Read short magazine sentences about dream jobs and jobs around us.",
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S4-Q01",
+          "type": "mcq",
+          "prompt": "Tammy first used her grandpa’s telescope when she was five. What looked “so close”?",
+          "prompt_zh": "請根據短句選出答案。",
+          "accepted_answers": [
+            "the stars"
+          ],
+          "hints": {
+            "first_error": "A telescope helps us look at things that are far away in the sky."
+          },
+          "feedback": {
+            "correct": "正確。答案是 the stars。",
+            "explanatory": "Tammy says that when she used the telescope, the stars looked so close."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "the buses"
+            },
+            {
+              "id": "B",
+              "text": "the stars"
+            },
+            {
+              "id": "C",
+              "text": "the footballs"
+            },
+            {
+              "id": "D",
+              "text": "the shirts"
+            }
+          ],
+          "stimulus": "When I was five, Grandpa let me use his telescope for the first time — the stars looked so close!",
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S4-Q02",
+          "type": "mcq",
+          "prompt": "What is Ella’s dream job?",
+          "prompt_zh": "請選出 Ella 的夢想工作。",
+          "accepted_answers": [
+            "a fashion blogger"
+          ],
+          "hints": {
+            "first_error": "Look at the first sentence of her text."
+          },
+          "feedback": {
+            "correct": "正確。Ella 想當 fashion blogger。",
+            "explanatory": "Ella’s dream is to be a fashion blogger. She loves watching video blogs about fashion and wants to share ideas for upcycling clothes."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "an astronaut"
+            },
+            {
+              "id": "B",
+              "text": "a famous footballer"
+            },
+            {
+              "id": "C",
+              "text": "a fashion blogger"
+            },
+            {
+              "id": "D",
+              "text": "a vet"
+            }
+          ],
+          "stimulus": "My dream is to be a fashion blogger. I love watching video blogs about fashion.",
+          "correct_option_id": "C"
+        },
+        {
+          "id": "S4-Q03",
+          "type": "mcq",
+          "prompt": "Lucas has played for his school for three years. What did his team win last year?",
+          "prompt_zh": "請選出正確答案。",
+          "accepted_answers": [
+            "the Junior Cup"
+          ],
+          "hints": {
+            "first_error": "The prize has the word Cup in its name. Remember the word the."
+          },
+          "feedback": {
+            "correct": "正確。他們贏了 the Junior Cup。",
+            "explanatory": "The textbook says last year his team won the Junior Cup. (Use the, as in the book.)"
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "the World Cup"
+            },
+            {
+              "id": "B",
+              "text": "the Junior Cup"
+            },
+            {
+              "id": "C",
+              "text": "a space camp"
+            },
+            {
+              "id": "D",
+              "text": "a fashion show"
+            }
+          ],
+          "stimulus": "I have played for my school for three years and last year our team won the Junior Cup.",
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S4-Q04",
+          "type": "mcq",
+          "prompt": "Is this sentence true (T) or false (F)? “Lucas has never played for his school team.”",
+          "prompt_zh": "請判斷句子是正確還是錯誤。",
+          "accepted_answers": [
+            "F",
+            "false"
+          ],
+          "hints": {
+            "first_error": "Read carefully: has he already played for his school?"
+          },
+          "feedback": {
+            "correct": "正確。句子是錯誤的（F）。",
+            "explanatory": "The sentence is false. Lucas has played for his school for three years."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "T (true)"
+            },
+            {
+              "id": "B",
+              "text": "F (false)"
+            }
+          ],
+          "accept_notes": "Accept F, false, or option B.",
+          "stimulus": "Lucas has played for his school for three years.",
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S4-Q05",
+          "type": "mcq",
+          "prompt": "Ronald likes creating new hairstyles for people. He has cut the hair of many top actors and actresses. His job is a ________.",
+          "prompt_zh": "請選出 Ronald 的工作。",
+          "accepted_answers": [
+            "hair stylist"
+          ],
+          "hints": {
+            "first_error": "This person works with people’s hair and creates new styles."
+          },
+          "feedback": {
+            "correct": "正確。Ronald 是 hair stylist。",
+            "explanatory": "Ronald is a hair stylist. The chapter dialogue also uses: If I become a hair stylist, I’ll create new hairstyles for people."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "hair stylist"
+            },
+            {
+              "id": "B",
+              "text": "astronaut"
+            },
+            {
+              "id": "C",
+              "text": "footballer"
+            },
+            {
+              "id": "D",
+              "text": "security guard"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S4-Q06",
+          "type": "gap",
+          "prompt": "Choose the word that matches the information: Kathy has a ________ and challenging life. (busy / quiet)",
+          "prompt_zh": "請根據短文，從括號中選出適當的形容詞。",
+          "accepted_answers": [
+            "busy"
+          ],
+          "hints": {
+            "first_error": "The missing word describes a life with a lot of work to do."
+          },
+          "feedback": {
+            "correct": "正確。應填 busy。",
+            "explanatory": "Kathy has a busy and challenging life. She has made a lot of money since she set up her own company."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "stimulus": "Kathy has her own company. She has a lot of work to do every day."
+        },
+        {
+          "id": "S4-Q07",
+          "type": "mcq",
+          "prompt": "Joyce has acted in many Hollywood films. She has thousands of fans. She is ________.",
+          "prompt_zh": "請選出最恰當的工作名稱。",
+          "accepted_answers": [
+            "an actress"
+          ],
+          "hints": {
+            "first_error": "The verb acted tells you the kind of job. Choose the word for a woman who acts."
+          },
+          "feedback": {
+            "correct": "正確。Joyce 是 an actress。",
+            "explanatory": "Joyce is an actress (an actor is also a possible general word, but the best match here is an actress). She is famous and rich."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "a waitress"
+            },
+            {
+              "id": "B",
+              "text": "an actress"
+            },
+            {
+              "id": "C",
+              "text": "a cashier"
+            },
+            {
+              "id": "D",
+              "text": "a driver"
+            }
+          ],
+          "accept_notes": "If a later short-answer variant is added, actor may be accepted; in this MCQ the keyed option is an actress.",
+          "correct_option_id": "B"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "order": 5,
+      "title": "Jobs in the future",
+      "title_zh": "第五關：未來的工作與讀者來信",
+      "intro_zh": "本關練習「科技可能取代部分工作」的閱讀要點，以及讀者來信的格式和寫作目的。最後一題為短寫作，不設自動評分，須交教師審閱。",
+      "intro_en": "Practise ideas about technology and jobs, letter parts, and a short opinion for teacher review.",
+      "question_count": 7,
+      "questions": [
+        {
+          "id": "S5-Q01",
+          "type": "mcq",
+          "prompt": "In the future, some jobs may ________ because of advances in technology.",
+          "prompt_zh": "請選出文中所用的動詞。",
+          "accepted_answers": [
+            "disappear"
+          ],
+          "hints": {
+            "first_error": "The sentence is about jobs that may not be needed any more."
+          },
+          "feedback": {
+            "correct": "正確。應選 disappear。",
+            "explanatory": "The text says some jobs may disappear because of advances in technology. Examples include some work now done by robots, self-service kiosks, or driverless cars."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "disappear"
+            },
+            {
+              "id": "B",
+              "text": "grow up"
+            },
+            {
+              "id": "C",
+              "text": "upcycle"
+            },
+            {
+              "id": "D",
+              "text": "interview"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S5-Q02",
+          "type": "mcq",
+          "prompt": "Robots are smart enough to do a lot of jobs, especially those that don’t require a lot of ________.",
+          "prompt_zh": "請選出文中的用詞。",
+          "accepted_answers": [
+            "decision-making"
+          ],
+          "hints": {
+            "first_error": "The missing word is about thinking and choosing what to do."
+          },
+          "feedback": {
+            "correct": "正確。應選 decision-making。",
+            "explanatory": "The text says robots can do many jobs, especially those that do not require a lot of decision-making. Examples on the page include a delivery robot, a robot waitress and a robot security guard."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "football"
+            },
+            {
+              "id": "B",
+              "text": "decision-making"
+            },
+            {
+              "id": "C",
+              "text": "upcycling"
+            },
+            {
+              "id": "D",
+              "text": "painting"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S5-Q03",
+          "type": "mcq",
+          "prompt": "Self-service kiosks can replace cashiers, some airline staff, and other jobs. Which example is a self-service kiosk from the text?",
+          "prompt_zh": "請選出文中的例子。",
+          "accepted_answers": [
+            "a self-service check-in kiosk at an airport"
+          ],
+          "hints": {
+            "first_error": "One example is at an airport; another is in a fast-food shop."
+          },
+          "feedback": {
+            "correct": "正確。",
+            "explanatory": "The text shows self-service ordering kiosks at a fast-food shop and a self-service check-in kiosk at an airport. A driverless taxi is an example of a driverless car, not a kiosk."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "a telescope in a Space Museum"
+            },
+            {
+              "id": "B",
+              "text": "a self-service check-in kiosk at an airport"
+            },
+            {
+              "id": "C",
+              "text": "a Junior Cup"
+            },
+            {
+              "id": "D",
+              "text": "a driverless taxi only, which is not a kiosk"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S5-Q04",
+          "type": "mcq",
+          "prompt": "As self-driving cars become more advanced, we may no longer need ________ in the future.",
+          "prompt_zh": "請選出可能不再需要的工作。",
+          "accepted_answers": [
+            "drivers"
+          ],
+          "hints": {
+            "first_error": "Think about who usually sits at the wheel of a taxi or a minibus."
+          },
+          "feedback": {
+            "correct": "正確。可能不再需要 drivers。",
+            "explanatory": "The text says we may no longer need drivers in the future. It shows a driverless minibus and a driverless taxi."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "drivers"
+            },
+            {
+              "id": "B",
+              "text": "stars"
+            },
+            {
+              "id": "C",
+              "text": "books"
+            },
+            {
+              "id": "D",
+              "text": "schools"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S5-Q05",
+          "type": "mcq",
+          "prompt": "In a letter to the editor, the line “Dear Editor,” is the ________.",
+          "prompt_zh": "請選出書信部分的名稱。",
+          "accepted_answers": [
+            "greeting"
+          ],
+          "hints": {
+            "first_error": "This is the opening line that speaks to the reader of the letter."
+          },
+          "feedback": {
+            "correct": "正確。Dear Editor, 是 greeting（稱呼）。",
+            "explanatory": "“Dear Editor,” is the greeting. The closing is “Yours faithfully,”. The introduction states the purpose for writing, and the conclusion gives recommendations."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "closing"
+            },
+            {
+              "id": "B",
+              "text": "greeting"
+            },
+            {
+              "id": "C",
+              "text": "conclusion"
+            },
+            {
+              "id": "D",
+              "text": "your name only"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "S5-Q06",
+          "type": "mcq",
+          "prompt": "Thomas writes to the editor of a newspaper to share his views about jobs and technology. What is the main purpose of his letter?",
+          "prompt_zh": "請選出寫信的主要目的。",
+          "accepted_answers": [
+            "to share his opinions"
+          ],
+          "hints": {
+            "first_error": "A letter to the editor is usually used to give a view about an issue, not to teach a whole lesson or only to tell a dream."
+          },
+          "feedback": {
+            "correct": "正確。主要目的是分享意見（share his opinions）。",
+            "explanatory": "Readers write letters to the editor to share their views about an issue. Thomas’s main purpose is to share his opinions. He is not mainly teaching a technology lesson, and “complain about his school” is too narrow (he also makes a recommendation about education)."
+          },
+          "teacher_review": false,
+          "marks": 1,
+          "options": [
+            {
+              "id": "A",
+              "text": "to share his opinions"
+            },
+            {
+              "id": "B",
+              "text": "to book an airline ticket"
+            },
+            {
+              "id": "C",
+              "text": "to complain only, with no ideas"
+            },
+            {
+              "id": "D",
+              "text": "to enter a football cup"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "S5-Q07",
+          "type": "teacher_review",
+          "prompt": "Write 2 or 3 complete sentences. Do you think schools should teach coding skills? Why or why not? You may also use an If-sentence (If schools teach coding skills, students will …).",
+          "prompt_zh": "請用 2 至 3 個完整英文句子作答。你認為學校應該教授編程（coding）技能嗎？為甚麼應該或為甚麼不應該？可以用 If 句子。此題不設自動評分，交由教師審閱。",
+          "accepted_answers": [],
+          "hints": {
+            "first_error": "Use complete sentences. Give a clear opinion and a reason. You can use because, and you can use If …, will … ."
+          },
+          "feedback": {
+            "correct": "已提交，請交教師審閱。",
+            "explanatory": "There is no single correct answer. A good reply gives a clear opinion, a reason, and (if possible) a conditional about the future. The teacher will review the writing. A model is provided for teachers only."
+          },
+          "teacher_review": true,
+          "marks": 3,
+          "note": "teacher_review: do not auto-mark and do not award automatic mastery. Show a ‘submitted for teacher review’ state only. Model answer is for the teacher key (範例／教師用), not a required student wording.",
+          "accept_notes": "Open response. Suggested model (範例／教師用): I think schools should teach coding skills because many jobs in the future will need computer skills. If schools teach coding skills, students will be ready for those jobs. Education should focus on the skills young people will need in the future."
+        }
+      ]
+    }
+  ]
+}

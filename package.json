@@ -1,0 +1,11 @@
+{
+  "name": "peter-my-dream-job",
+  "private": true,
+  "description": "Browser-only English practice for Longman English Leap 6A Chapter 1 My dream job.",
+  "scripts": {
+    "test": "node --test tests/marking.test.js && node tests/browser.test.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.15.0"
+  }
+}
